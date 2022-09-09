@@ -3,17 +3,17 @@
 
 int main() {
     // Write C code here
-    /*char c,v;
+   char c,v;
     char arr[]={'a','e','i','o','u','y'};
     int cn,i;
     printf("saisir un char \n");
     scanf("%c",&v);
    
     for (i=0;i<sizeof(arr);i++){
-    	printf("\n %c \n",arr[i]);
-    	c=arr[i];
-    	if(c==v){
+    arr[i];
+    	if(arr[i]==v){
 			cn=1;
+			break;
 		}else{
 			cn=2;
 		}
@@ -25,9 +25,8 @@ int main() {
 		case 2:
 			printf("non");
 			break;	
-	}*/
-	char c;
-	 //char arr[]={'a','e','i','o','u','y'};
+	}
+	//S 2
 	printf("saisir un char \n");
     scanf("%c",&c);
     switch (c){
