@@ -20,7 +20,7 @@ int main(){
 }
 
 bool divededby(int a,int b){
-	int m=a%b;
+	int m=a/b;
  	if(isPremier(m)){
 		return true;
 	}else {
